@@ -1,0 +1,21 @@
+body {
+  background-color: whitesmoke;
+}
+
+p {
+  padding-left: 6px;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 0.6fr 1.5fr 1fr;
+}
+
+.continent-result {
+  padding: 16px;
+  min-height: 300px;
+  max-height: 700px;
+  min-width: 200px;
+  max-width: 600px;
+  margin: 0 auto;
+}

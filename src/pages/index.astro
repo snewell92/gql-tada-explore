@@ -1,5 +1,8 @@
 ---
-
+import { App } from "../components/App";
+import "../components/App.css";
+import "../components/SearchBar.css";
+import "../components/ContinentCard.css";
 ---
 
 <html lang="en">
@@ -8,9 +11,9 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>Country Search</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<App client:only="react" />
 	</body>
 </html>

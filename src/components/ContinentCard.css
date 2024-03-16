@@ -1,0 +1,52 @@
+
+.continent-card {
+  margin: .6rem;
+  border: 1px solid #444;
+  padding: 0;
+
+  width: 100%;
+  max-width: 350px;
+}
+
+.continent-card > h2 {
+  padding-left: 4px;
+}
+
+.continent-card > p {
+  padding-left: 16px;
+}
+
+.countries {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 4px 2px;
+  border-top: 2px solid coral;
+  border-bottom: 2px solid coral;
+}
+
+.country {
+  line-height: 1.2;
+  font-size: 1.2rem;
+  padding: 2px;
+}
+
+.country:hover {
+  color: coral;
+  cursor: pointer;
+}
+
+.country:nth-child(2n) {
+  background-color: #f0c7a6;
+}
+
+.country:nth-child(2n + 1) {
+  background-color: #f2c1c1;
+}
+
+.country:nth-child(4n) {
+  background-color: #c3efe6
+}
+
+.country:nth-child(4n + 1) {
+  background-color: #f7f6d6;
+}
