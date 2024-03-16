@@ -1,3 +1,11 @@
+# GQL Tada Explore
+
+This repo is an Astro site with mostly just a react SPA in App.tsx that explores
+how to leverage [gql.tada](https://gql-tada.0no.co/) quickly with an example GQL API,
+the continent/country one from [trevor blades](https://countries.trevorblades.com/).
+
+Below I've kept all the default readme bits from Astro.
+
 # Astro Starter Kit: Minimal
 
 ```sh
